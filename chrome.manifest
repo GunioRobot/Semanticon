@@ -1,0 +1,2 @@
+content semanticon chrome/content/
+overlay	chrome://firebug/content/firebugOverlay.xul	chrome://semanticon/content/semanticon.xul

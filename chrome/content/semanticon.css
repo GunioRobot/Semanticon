@@ -1,0 +1,40 @@
+.Semanticon	{min-height:180px;background:url(images/bg.png) left top repeat-x #FFFFFF;padding:24px;}
+.Semanticon #header	{min-width:670px;overflow:hidden;}
+.Semanticon #logo	{display:block;float:left;width:176px;height:24px;background:url(images/semanticon.png) left top no-repeat;}
+.Semanticon #logo span	{visibility:hidden;}
+
+.Semanticon #nav	{float:right;margin-left:24px;padding:0px 16px;height:22px;background:url(images/bgNav.png) left top repeat-x;border:1px solid #7A795E;-moz-border-radius:12px;}
+.Semanticon #nav a	{display:block;height:22px;float:left;padding:0px 8px;font:normal 11px/22px arial,helvetica,sans-serif;text-decoration:none;color:#666633;}
+.Semanticon #nav a:hover	{color:#663300;background-color:#E0DCC0;cursor:pointer;}
+
+.Semanticon #nav a.selected	{background-color:#E7E0BC;color:#333300;}
+.Semanticon #nav a.selected:hover	{color:#333300;}
+
+.Semanticon #nav a.disabled	{color:#999999;opacity:0.75;}
+.Semanticon #nav a.disabled:hover	{cursor:default;background-color:transparent;color:#999999;}
+
+.Semanticon #content	{margin:24px 0px 12px 0px;border:1px solid #7A795E;-moz-border-radius:8px;background-color:#F4F0E8;}
+
+.Semanticon #tblContent	{width:100%;border-collapse:collapse;}
+.Semanticon #tblContent td, .Semanticon #tblContent th	{font:normal 11px arial,helvetica,sans-serif;padding:2px;height:14px;text-align:left;vertical-align:middle;}
+.Semanticon #tblContent thead th, .Semanticon #tblContent tfoot td	{background-color:#DCD8BA;padding:4px 6px;}
+.Semanticon #tblContent thead th {-moz-border-radius-topleft:8px;-moz-border-radius-topright:8px;}
+
+.Semanticon #tblContent .bodyTitle	{font-size:14px;font-weight:bold;display:none;}
+
+
+.Semanticon #tblContent .td1	{visibility:hidden;}
+
+.Semanticon #tblContent tbody	{display:none;width:100%;clear:both;}
+
+.Semanticon #tblContent tbody th	{text-align:left;font-weight:bold;padding:4px 6px;background-color:#ECEAE0;}
+.Semanticon #tblContent tbody .th1	{width:25px;}
+
+.Semanticon #tblContent tbody td	{border:1px solid #E9E5DA;padding:3px 6px;}
+.Semanticon #tblContent tbody td:first-child	{border-left-width:0px;}
+
+.Semanticon #tblContent tfoot td:first-child	{-moz-border-radius-bottomleft:8px;}
+.Semanticon #tblContent tfoot td:last-child		{-moz-border-radius-bottomright:8px;}
+
+
+.Semanticon #footer	{font:normal 11px arial,helvetica,sans-serif;color:#333333;text-align:center;}

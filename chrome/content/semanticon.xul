@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<overlay id="semanticon" 
+ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://semanticon/content/semanticon.js"/>
+	<script type="application/x-javascript" src="chrome://semanticon/content/senseocontext.js"/>
+	<script type="application/x-javascript" src="chrome://semanticon/content/semanticon-objects.js"/>
+	<script type="application/x-javascript" src="chrome://semanticon/content/semanticon-panel.js"/>
+
+	<commandset id="mainCommandSet">
+	</commandset>
+
+<!--	<statusbar id="status-bar">
+		<statusbarpanel id="semanticon-panel" insertafter="fbStatusBar">
+			<label id="senseoStatusLabel" onmousedown="Firebug.SemanticonModule.onClickLabel(FirebugContext, event)">Semanticon</label>
+		</statusbarpanel>
+	</statusbar>
+-->
+</overlay>
